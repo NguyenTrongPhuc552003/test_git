@@ -1,9 +1,11 @@
-from sum import *
+from sub import *
+from multi import *
 
 def main():
     print("Hello World!")
-    s = sum(1, 2)
-    print(f'Sum = {s}')
+    su = sub(5, 3)
+    print(f'Sub = {su}')
+    printf(f'Multi = {multi(5, 3)}')
 
 if __name__ == "__main__":
     main()
